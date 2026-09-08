@@ -1,0 +1,19 @@
+IrisResearchAnalyzer - آماده‌سازی برای Build آنلاین
+
+تغییرات انجام‌شده:
+- Gradle Wrapper از 9.0 به 9.1.0 اصلاح شد.
+- URL خراب https\\:// به شکل صحیح اصلاح شد.
+- فایل code2native.json برای خروجی APK دیباگ اضافه شد.
+
+نکته مهم:
+این ZIP فقط فایل‌های زیر را در اختیار داشت و سورس برنامه کامل داخل آن نیست:
+- app/build.gradle
+- app/src/main/AndroidManifest.xml
+- build.gradle
+- settings.gradle
+- gradle.properties
+- gradle/wrapper/gradle-wrapper.properties
+
+در Manifest به MainActivity و AppTheme اشاره شده، اما فایل‌های MainActivity و منابع UI داخل ZIP وجود ندارند. بنابراین ممکن است Build آنلاین به خطای missing MainActivity / AppTheme برسد.
+
+اگر Build شکست خورد، باید نسخه کامل پروژه شامل app/src/main/java یا app/src/main/kotlin و app/src/main/res ارسال شود.

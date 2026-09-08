@@ -1,0 +1,13 @@
+GitHub Actions build instructions
+
+This project is configured to build a debug APK with:
+- JDK 17
+- Gradle 9.1.0
+- Android SDK Platform 36
+- Android Build Tools 36.0.0
+
+Workflow: .github/workflows/android-apk.yml
+
+After pushing to GitHub, open Actions > Build Android APK > Run workflow.
+When the job succeeds, open the run and download the artifact named:
+IrisResearchAnalyzer-debug-apk

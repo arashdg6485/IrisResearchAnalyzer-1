@@ -22,3 +22,7 @@ The current planetary-position engine is an internal approximation foundation. P
 - AnalysisSummaryActivity
 
 Note: chart/ephemeris calculations remain research approximations until connected to a validated ephemeris library and complete timezone/city database.
+
+
+## Stage 10
+GitHub Actions workflow updated for Android SDK 36 installation and verification.

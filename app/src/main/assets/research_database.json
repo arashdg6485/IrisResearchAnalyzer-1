@@ -1,0 +1,83 @@
+{
+  "version": 9,
+  "modules": [
+    {
+      "id": "western",
+      "title": "نجوم غربی",
+      "status": "research",
+      "features": [
+        "signs",
+        "houses",
+        "aspects",
+        "planet table",
+        "chart wheel"
+      ]
+    },
+    {
+      "id": "vedic",
+      "title": "نجوم ودیک",
+      "status": "research",
+      "features": [
+        "rashi",
+        "nakshatra",
+        "sidereal offset"
+      ]
+    },
+    {
+      "id": "chinese",
+      "title": "نجوم چینی",
+      "status": "research",
+      "features": [
+        "animal",
+        "element",
+        "birth-year model"
+      ]
+    },
+    {
+      "id": "numerology",
+      "title": "عددشناسی",
+      "status": "research",
+      "features": [
+        "life path",
+        "Persian abjad name number",
+        "master numbers"
+      ]
+    },
+    {
+      "id": "relationship",
+      "title": "تحلیل رابطه",
+      "status": "research",
+      "features": [
+        "comparison framework",
+        "shared indicators"
+      ]
+    },
+    {
+      "id": "career",
+      "title": "تحلیل شغلی",
+      "status": "research",
+      "features": [
+        "symbolic indicators",
+        "decision context"
+      ]
+    },
+    {
+      "id": "health_research",
+      "title": "سلامت پژوهشی",
+      "status": "research",
+      "features": [
+        "research topics",
+        "non-diagnostic wording"
+      ]
+    },
+    {
+      "id": "investment_research",
+      "title": "سرمایه‌گذاری پژوهشی",
+      "status": "research",
+      "features": [
+        "timing study",
+        "risk-context wording"
+      ]
+    }
+  ]
+}

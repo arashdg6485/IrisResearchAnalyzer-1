@@ -1,6 +1,4 @@
-plugins {
-    id 'com.android.application'
-}
+plugins { id 'com.android.application' }
 
 android {
     namespace 'com.ayat.irisresearch'
@@ -10,8 +8,8 @@ android {
         applicationId 'com.ayat.irisresearch'
         minSdk 23
         targetSdk 36
-        versionCode 1
-        versionName '1.0'
+        versionCode 7
+        versionName '1.0.7'
     }
 
     buildTypes {
@@ -20,10 +18,7 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'),
                     'proguard-rules.pro'
         }
-
-        debug {
-            minifyEnabled false
-        }
+        debug { minifyEnabled false }
     }
 
     compileOptions {

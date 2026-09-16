@@ -1,0 +1,9 @@
+{
+  "western_astrology": ["zodiac","planets","houses","aspects","natal_chart"],
+  "vedic_astrology": ["sidereal_rashi","nakshatra","dasha_foundation"],
+  "chinese_astrology": ["animal","five_elements","year_cycle"],
+  "numerology": ["life_path"],
+  "research_sections": ["relationship","career","health_associations","investment_themes"],
+  "charts": ["western_wheel","planet_positions","aspect_list"],
+  "note": "Planet positions in this stage use an internal approximate calculation foundation; a validated ephemeris backend is required for production-grade astronomical precision."
+}

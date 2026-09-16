@@ -1,0 +1,8 @@
+{
+  "western": ["zodiac","planets","houses","aspects","natal_chart"],
+  "vedic": ["rashi","nakshatra","dasha"],
+  "chinese": ["animal","element","year_cycle"],
+  "numerology": ["life_path","expression","soul_urge","personality"],
+  "research": ["relationship","career","health_associations","investment_themes"],
+  "reports": ["tables","chart","pdf"]
+}

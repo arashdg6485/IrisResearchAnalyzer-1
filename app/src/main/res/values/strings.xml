@@ -1,1 +1,9 @@
-<resources><string name="app_name">Iris Research Analyzer</string></resources>
+<resources>
+    <string name="app_name">Iris Research Analyzer</string>
+    <string name="title">تحلیلگر جامع استرولوژی و نومرولوژی</string>
+    <string name="name_hint">نام و نام خانوادگی</string>
+    <string name="date_hint">تاریخ تولد شمسی — 1375/05/20</string>
+    <string name="time_hint">ساعت تولد — 14:30</string>
+    <string name="city_hint">شهر تولد</string>
+    <string name="analyze">شروع تحلیل</string>
+</resources>

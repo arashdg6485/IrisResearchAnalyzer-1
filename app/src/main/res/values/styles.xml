@@ -1,7 +1,8 @@
 <resources>
-<style name="AppTheme" parent="android:style/Theme.Material.NoActionBar">
-    <item name="android:fontFamily">sans</item><item name="android:colorAccent">#5DD6C0</item>
-    <item name="android:navigationBarColor">#10151B</item><item name="android:statusBarColor">#10151B</item>
-    <item name="android:windowLightStatusBar">false</item>
-</style>
+    <style name="Theme.IrisResearchAnalyzer" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:fontFamily">sans</item>
+        <item name="android:statusBarColor">@color/iris_background</item>
+        <item name="android:navigationBarColor">@color/iris_background</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
 </resources>

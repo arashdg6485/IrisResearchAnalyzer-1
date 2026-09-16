@@ -26,3 +26,7 @@ Note: chart/ephemeris calculations remain research approximations until connecte
 
 ## Stage 10
 GitHub Actions workflow updated for Android SDK 36 installation and verification.
+
+
+## Stage 11 — GitHub Actions workflow
+The workflow was revised to install only the SDK packages required by this project and to avoid the standalone `sdkmanager --licenses` step that was causing the previous CI run to stop at interactive license prompts. It also verifies the SDK and APK before publishing.
